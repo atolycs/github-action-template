@@ -3,7 +3,14 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: "eslint:recommended",
+  plugins: [
+    "jest"
+  ],
+  extends: [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style"
+  ],
   overrides: [
     {
       env: {
