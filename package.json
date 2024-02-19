@@ -1,0 +1,20 @@
+{
+  "name": "github-action-template",
+  "version": "1.0.0",
+  "description": "- Directory Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
