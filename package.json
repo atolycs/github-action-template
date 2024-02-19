@@ -1,10 +1,13 @@
 {
   "name": "github-action-template",
   "version": "1.0.0",
-  "description": "- Directory Style",
+  "description": "Github Action Template for Node.js",
   "main": "index.js",
   "scripts": {
-    "build": ""
+    "build:main": "esbuild --bundle --outdir=dist ./src/main.js",
+    "build:post": "esbuild --bundle --outdir=dist ./src/post.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
